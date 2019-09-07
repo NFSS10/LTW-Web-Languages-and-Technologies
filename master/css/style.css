@@ -1,0 +1,1058 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Header
+----------------------------------------------------------- */
+header {
+	position: relative;
+	padding: 18px 25px;
+}
+
+.logo a img {
+	margin-left:0px;
+	margin-top:0px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	opacity:1.0;
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+
+.logo a img:hover {
+	opacity:0.5;
+}
+
+/* Body
+-----------------------------------------------------------*/
+body {
+	background: #eee url("../resources/background.png") repeat;
+	nowhitespace: afterproperty;
+	font: 12px/1.8 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+}
+
+.layer_body {
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+	box-shadow: 0px 3px 15px  rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);
+	border-radius: 7px;
+	margin: 10px auto;
+}
+
+/* Main info */
+.main {
+	background:#fff;
+	font-size: 120%;
+	padding: 25px 25px 25px 25px;
+    overflow: hidden;
+}
+
+.main_index {
+	background:#fff;
+	font-size: 120%;
+	overflow: hidden;
+}
+
+.menu .Navigation_bar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d6d6d6+8,c0c0c0+69 */
+	background: rgb(214,214,214); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(214,214,214,1) 8%, rgba(192,192,192,1) 69%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(214,214,214,1) 8%,rgba(192,192,192,1) 69%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(214,214,214,1) 8%,rgba(192,192,192,1) 69%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#c0c0c0',GradientType=0 ); /* IE6-9 */
+
+}
+
+.menu .Navigation_bar li {
+	float: left;
+	border-right: 1px solid #708090;
+	font-family: "Lucida Sans Unicode";
+}
+
+
+.menu .Navigation_bar li a {
+	display: inline-block;
+	color: #000000;
+	text-align: center;
+	padding: 0px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 17px;
+
+}
+
+.Navigation_bar .Home img {
+	width: 20px;
+	height: 20px;
+	opacity: 0.7;
+	vertical-align: middle;
+	padding-bottom: 3px;
+}
+
+.menu .Navigation_bar li:hover{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ccd0d0+0,b8bac6+22,9fa1b1+47,b9bdc5+71,ccd0d0+100 */
+	background: rgb(204,208,208); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(204,208,208,1) 0%, rgba(184,186,198,1) 22%, rgba(159,161,177,1) 47%, rgba(185,189,197,1) 71%, rgba(204,208,208,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(204,208,208,1) 0%,rgba(184,186,198,1) 22%,rgba(159,161,177,1) 47%,rgba(185,189,197,1) 71%,rgba(204,208,208,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(204,208,208,1) 0%,rgba(184,186,198,1) 22%,rgba(159,161,177,1) 47%,rgba(185,189,197,1) 71%,rgba(204,208,208,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccd0d0', endColorstr='#ccd0d0',GradientType=0 ); /* IE6-9 */
+
+}
+
+.menu .Navigation_bar li a {
+
+	opacity: 1;
+
+	transition-property: opacity;
+	transition-duration: 0.1s;
+	transition-timing-function: linear;
+}
+
+.Navigation_bar .Home img:hover {
+	opacity:1;
+}
+
+.menu a, a:link, a:visited, a:active, a:hover {
+	text-decoration: none;
+}
+
+.menu .Navigation_bar li:active{
+	opacity:0.5
+}
+
+.menu .Navigation_bar li.icon {float:right;display:none;}
+
+.menu .Navigation_bar li:last-child {
+	border-right: none;
+}
+
+@media screen and (max-width:680px) {
+
+	ul.Navigation_bar li:not(:first-child) {display: none;}
+	.menu .Navigation_bar li.icon {
+		float: right;
+		display: inline-block;
+	}
+
+	ul.Navigation_bar li{
+		border: none;
+	}
+
+	.Navigation_bar.responsive .search_container {
+		float:left;
+	}
+}
+
+@media screen and (max-width:680px) {
+	ul.Navigation_bar.responsive {position: relative;}
+	ul.Navigation_bar.responsive li.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	ul.Navigation_bar.responsive li {
+		float: none;
+		display: block;
+	}
+	ul.Navigation_bar.responsive li a {
+		display: block;
+		text-align: left;
+	}
+
+	ul.Navigation_bar.responsive li{
+		border: none;
+	}
+
+	.Navigation_bar.responsive .search_container {
+		float:left;
+		padding-left: 15px;
+	}
+}
+
+div.restaurant_img {
+	margin: 10px 0.7%;
+	border: 1px solid #ccc;
+	display: inline-table;
+}
+
+div.restaurant_img:hover {
+	position:relative; left: 0px; top:-35px; border-color:#000000;
+}
+
+div.restaurant_img img {
+	width: 300px;
+	height: 225px;
+}
+
+.restaurant_images{
+	position: relative;
+	width: 100%;
+	height:100%;
+	overflow: hidden;
+}
+
+div.restaurant_img .description {
+	padding: 10px;
+	text-align: center;
+}
+
+.search_container{
+	padding:5px 5px 0px 0px;
+}
+
+.search_container .d_selected {
+    float:right;
+    padding-left:5px;
+}
+
+select {
+    background-color: #2b303b;
+    color: #ffffff;
+    font-family: "Verdana";
+    font-size: 12px;
+    padding-top: 1px;
+    border-radius: 7px;
+	outline: none;
+}
+
+.filter select {
+    border: rgba(219,87,5,1) 3px solid;
+	outline: none;
+}
+
+.search_container input.search_icon
+{
+	float:right;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border: none;
+	opacity:0;
+	width:18px;
+	height:18px;
+	margin-right: -150px;
+	transition: all .55s ease;
+	background: #2b303b url("../resources/search_icon.png") ;
+	background-size: 20px 20px;
+	font-size: 0px;
+	outline: none;
+}
+
+.search_container:hover input.search_icon, .search_container:active input.search_icon, .search_container:focus input.search_icon{
+    outline: none;
+    margin-left: -50px;
+	opacity: 1;
+}
+
+.search_container input#search {
+	background: #2b303b;
+	float: right;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+	width: 150px;
+	color: #fff;
+	outline: none;
+}
+
+.filter label {
+	font-weight:bold;
+}
+
+.filter #pricemin, .filter #pricemax {
+	background: #2b303b;
+	color: #ffffff;
+	border-radius: 5px;
+	border: rgba(219,87,5,1) 3px solid;
+	outline: none;
+}
+
+.filter .f_button, .filter .f_button_reset {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(219,87,5,1);
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 100%;
+    font-weight:600;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 0px rgba(219,31,5,1), 0px 5px 25px rgba(0,0,0,.7);
+    margin: 10px auto 50px auto;
+    width: 85px;
+    text-align: center;
+    border:none;
+    transition: all .1s ease;
+	outline: none;
+}
+
+.filter .f_button:active, .filter .f_button_reset:active {
+    -webkit-box-shadow: 0px 3px 0px rgba(219, 31, 5, 1), 0px 1px 6px rgba(0, 0, 0, .9);
+    -moz-box-shadow: 0px 3px 0px rgba(219, 31, 5, 1), 0px 1px 6px rgba(0, 0, 0, .9);
+    box-shadow: 0px 3px 0px rgba(219, 31, 5, 1), 0px 3px 1px rgba(0, 0, 0, .9);
+}
+
+.footer{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	position: relative;
+	padding: 10px 40px 5px 40px;
+	margin-top: 0px;
+    border-radius: 0px 0px 7px 7px;
+	clear: both;
+}
+
+div .manage_all {
+	padding: 0px 20px 0px 0px;
+	overflow:auto;
+	clear:both;
+	margin:0px;
+	width:100%;
+	height:460px;
+}
+
+div .manage_all div {
+	display: inline-block;
+}
+
+div .left_menu, div .c_user_img, div .user_form{
+	vertical-align: top;
+	float:left;
+	height:447px;
+}
+
+div .left_menu {
+	float:left;
+    border-radius: 10px;
+    background-color: rgba(0,0,0, .7);
+
+	width:14%;
+    border: rgba(219,87,5,1) 3px solid;
+    outline: none;
+    text-align: center;
+
+    color: #ffffff;
+    font-family: Verdana;
+    box-shadow: 0px 3px 0px rgba(219,31,5,1);
+}
+
+div .left_menu a {
+    color: #ffffff;
+    font-size: 15px;
+
+    transition-property: all;
+    transition-duration: 0.05s;
+    transition-timing-function: linear;
+}
+
+div .left_menu a:hover{
+    text-shadow: 0 0 10px #fff;
+}
+
+div .left_menu a:active {
+    text-shadow: none;
+}
+
+div .left_menu .lm_header {
+	background-color: rgba(0,0,0, .5);
+	width: 100%;
+	height: auto;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	text-align: center;
+    font-weight: 600;
+    padding: 5px 0px 5px 0px;
+	margin-bottom: 5px;
+}
+
+
+div .c_user_img {
+
+	width:30%;
+}
+
+div .c_user_img .change_avatar{
+	padding-left: 27%;
+	color:transparent;
+	width:100%;
+}
+
+div .c_user_img .change_avatar input[type='file']{
+    outline: none;
+    display: none;
+}
+
+div .c_user_img .change_avatar label {
+    background-color: #3498db;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+    opacity: 0.7;
+    cursor: pointer;
+    margin: 10px 10px 10px 0px;
+    padding: 6px 10px;
+    position:relative;
+    top: -40px;
+
+    transition-property: opacity;
+    transition-duration: 0.05s;
+    transition-timing-function: linear;
+}
+
+div .c_user_img .change_avatar label:hover{
+    opacity:1;
+}
+
+div .c_user_img .change_avatar label:active{
+    opacity:0.5
+}
+
+
+
+div  .user_form {
+	background-color: #F5F5F5;
+	width:40%;
+	text-align: center;
+	border-radius: 15px;
+}
+
+div .user_form input:not(.sub) {
+	width: 80%;
+	padding: 2px 20px;
+	margin: 0px 0px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	text-align: center;
+	outline:none;
+}
+
+div .manage_all input[type=submit], .restaurant_reply input[type=submit], .add_restaurant_form input[type=submit],
+.edit_sel_form input[type=submit]{
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-weight: bold;
+	outline:none;
+	opacity: 1;
+
+	transition-property: opacity;
+	transition-duration: 0.1s;
+	transition-timing-function: linear;
+}
+
+
+div .user_form input[type=submit] {
+    width: 35%;
+    padding: 10px 20px;
+    position:relative;
+    top:-17px;
+}
+
+div .c_user_img input[type=submit] {
+    position:absolute;
+    padding: 10px 15px;
+    left:28.8%;
+    top: 380px;
+}
+
+.add_restaurant_form input[type=submit], .edit_sel_form input[type=submit] {
+	padding: 7px 15px;
+}
+
+.edit_sel_form input[type=submit] {
+	margin-top: 10px;
+}
+
+
+div .manage_all input[type=submit]:hover, .add_restaurant_form input[type=submit]:hover,
+.edit_sel_form input[type=submit]:hover
+{
+	background-color: #45a049;
+}
+
+
+div .manage_all input[type=submit]:active, .add_restaurant_form input[type=submit]:active,
+.edit_sel_form input[type=submit]:active{
+	opacity:0.6
+}
+
+div .user_form label, .add_restaurant_form label, .edit_sel_form label, .add_r_form label{
+	font-weight:bold;
+	color: #000000;
+	font-family: Verdana;
+	font-size:12px;
+}
+
+div  a, a:link, a:visited, a:active, a:hover {
+	text-decoration: none;
+}
+
+.user_form span {
+	position:absolute;
+	color: red;
+	font-size:100%;
+	display:inline-block;
+	padding-left: 10px;
+}
+img#avatar {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding:5px;
+
+}
+
+.user_profile_wrap {
+	background-color: rgba(0,0,0, .8);
+	width:50%;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.user_container {
+	font-family: Trebuchet MS;
+}
+
+.user_container span {
+	font-weight: bold;
+
+}
+
+.user_profile img#avatar {
+	width: 18%;
+	height: 120px;
+	float:left;
+	margin: 10px 45px;
+}
+
+
+.user_container {
+	margin-left: 33%;
+	color: #ffffff;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.c_user_img img#avatar {
+	width: 160px;
+	height: 150px;
+	margin: 10px 0px 0px 25%;
+}
+
+.footer .left_footer,
+.footer .center_footer,
+.footer .right_footer{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer links */
+
+.footer .links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer .links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+/* Footer Center */
+
+.footer .left_footer{
+	width: 35%;
+}
+
+.footer  .left_footer .Morada{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	white-space:nowrap;
+}
+
+.footer .left_footer p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	font-size:12px;
+	font-weight: normal;
+	margin:0;
+}
+
+.footer .left_footer p span{
+	display:block;
+	font-weight: normal;
+	font-size:12px;
+	line-height:2;
+}
+
+.footer .left_footer p a{
+	color:  #5383d3;
+	text-decoration: none;
+	font-weight:bold;
+	font-size: 13px;
+}
+
+
+/* Footer center */
+
+.footer .center_footer{
+	width: 30%;
+}
+
+.footer .About_RR{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer .About_RR span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	white-space:nowrap;
+}
+
+.footer .right_footer {
+    float: right;
+}
+
+.footer .footer-icons{
+	margin-top: 0px;
+}
+
+.footer .footer-icons p{
+
+	padding-bottom: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.footer .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+
+}
+
+.footer .footer-icons img {
+	width:35px;
+	height:35px;
+	margin-bottom: 5px;
+
+	transition-property: width, height, margin-bottom;
+	transition-duration: 0.4s;
+	transition-timing-function: linear;
+}
+
+
+.footer .footer-icons a,
+.footer .footer-icons img:hover {
+	width: 40px;
+	height: 40px;
+	margin-bottom:0px;
+}
+
+@media (max-width: 880px) {
+
+	.footer {
+		float:left;
+		width: 100%;
+		margin-top: 0px;
+	}
+
+	.footer .left_footer,
+	.footer .center_footer,
+	.footer .right_footer{
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+}
+
+
+#not_access #not_access_warning{
+	color:red;
+}
+
+.user_not_found{
+	color: red;
+}
+
+.restaurant_review textarea {
+	resize: none;
+}
+
+.restaurant_review {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+img#restaurant_rating_img {
+	width: 5%;
+}
+
+div .restaurant_review input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    outline:none;
+    opacity: 1;
+
+    width: 15%;
+    padding: 10px 20px;
+    position:relative;
+    top:-17px;
+
+    transition-property: opacity;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+}
+
+div .restaurant_review input[type=submit]:hover, .restaurant_reply input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+div .restaurant_review input[type=submit]:active, .restaurant_reply input[type=submit]:active{
+    opacity:0.6
+}
+
+.restaurant_reply input[type=submit] {
+	vertical-align:top;
+	position:relative;
+	top: 23px;
+}
+
+.restaurant_images {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+div.rate {
+	width: 270px;
+	display: inline-block;
+}
+
+input.star {
+	display: none;
+}
+
+label.star {
+	float: right;
+	padding: 10px;
+	font-size: 36px;
+	color: #444;
+	transition: all .2s;
+}
+
+input.star:checked ~ label.star:before {
+	content: '\f005';
+	color: #FD4;
+	transition: all .25s;
+}
+
+input.star-5:checked ~ label.star:before {
+	color: #FE7;
+	text-shadow: 0 0 20px #952;
+}
+
+input.star-1:checked ~ label.star:before {
+	color: #F62;
+}
+
+label.star:hover {
+	transform: rotate(-10deg) scale(1.5);
+}
+
+label.star:before {
+	content: '\f006';
+	font-family: FontAwesome;
+}
+
+.restaurant_reply #comment_review_reply{
+	resize: none;
+}
+
+.review {
+	width: 90%;
+	height: 100%;
+
+	padding-left:9px;
+	padding-top:6px;
+	padding-bottom:6px;
+	margin:2px;
+    overflow: hidden;
+}
+
+#review_reply {
+    border:solid thick darkblue;
+    border-width:2px;
+}
+
+.review .review-avatar,
+.review .review-text,
+.review .review-score{
+    display: inline-block;
+}
+
+
+.review .review-avatar {
+	width: 10%;
+	height: auto;
+	text-align:center;
+    vertical-align: middle;
+}
+
+.review .review-avatar img#review_avatar_img {
+	width: 100px;
+	height: 100px;
+
+}
+
+.review .review-text {
+	width: 70%;
+	height: auto;
+    vertical-align: top;
+    word-wrap:break-word;
+}
+
+.review .review-text span {
+    font-weight: bold;
+}
+
+.review .review-score {
+	width: 15%;
+	height: auto;
+	text-align:center;
+    vertical-align: middle;
+}
+
+.review .review-score span {
+	font-weight: bold;
+}
+
+.review img#rating_img {
+	width: 70%;
+	height: auto;
+}
+
+h2 {
+	display: block;
+	font-size: 1.5em;
+	margin: 0.70em 0 0.50em 0;
+	font-weight: bold;
+}
+
+
+div .restaurant_reply input[type=submit] {
+	padding: 7px 15px;
+}
+
+div .restaurant_reply label {
+	font-weight:bold;
+}
+
+#owner_reply {
+
+	border:solid thick red;
+	border-width:2px;
+	float:right;
+
+}
+
+.review .owner_reply_avatar,
+.review .owner_reply_user,
+.review .owner_reply_answer{
+    display: inline-block;
+}
+
+
+.review .owner_reply_avatar {
+    width: 10%;
+    height: auto;
+    text-align:center;
+    vertical-align: middle;
+}
+
+.review .owner_reply_avatar img#owner_reply_avatar {
+	width: 100px;
+	height: 100px;
+}
+
+.review .owner_reply_answer {
+    width: 85%;
+    height: auto;
+    vertical-align: top;
+    word-wrap:break-word;
+    padding-left:10px;
+}
+
+.review .owner_reply_answer span {
+    font-weight:bold;
+}
+
+.no_restaurants {
+	color: red;
+}
+
+div .add_restaurant {
+	padding: 0px 20px 0px 0px;
+	overflow:auto;
+	clear:both;
+	margin:0px;
+	width:100%;
+}
+
+div .add_restaurant_owner {
+	padding: 0px 20px 0px 0px;
+	overflow:auto;
+	clear:both;
+	margin:0px;
+	width:100%;
+}
+
+div .edit_restaurant {
+	padding: 0px 20px 0px 0px;
+	overflow:auto;
+	clear:both;
+	margin:0px;
+	width:100%;
+}
+
+
+div .restaurant_info {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
+
+div .restaurant_info li {
+	margin-left: 10px;
+	color: #ffffff;
+	font-family: Verdana;
+}
+
+
+div .restaurant_info span {
+	font-weight: bold;
+	color: #000 !important;
+}
+
+div #account_already_exist {
+	color: red;
+}
+
+div #verify_success #green {
+	color: darkgreen;
+}
+
+div #account_not_access {
+	color: red;
+}
+
+div #account #red {
+	color:red;
+}
+
+textarea {
+	resize: none;
+}
+
+div #owner_add {
+	color:darkgreen;
+}

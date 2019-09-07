@@ -1,0 +1,103 @@
+.restaurant_container, .edit_restaurant, .edit_selected_restaurant, .add_restaurant_owner {
+    width: 100%;
+    overflow: auto;
+    display: inline;
+
+}
+
+.add_restaurant_form, .edit_restaurant_form, .left_menu, .edit_sel_form, .add_r_o_form {
+    display: inline-block;
+    vertical-align: top;
+    height:450px;
+}
+
+
+.add_restaurant_form, .edit_restaurant_form, .edit_sel_form, .add_r_o_form {
+    width: 60%;
+    overflow: auto;
+    margin-left: 20px;
+}
+
+.add_restaurant_form input[type=text],
+.add_restaurant_form input[type=number],
+.edit_sel_form input[type=text],
+.edit_sel_form input[type=number] {
+    width: 30%;
+    padding: 2px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    outline:none;
+}
+
+.edit_sel_form label {
+    margin-top: 20px;
+}
+
+.edit_restaurant_form .ed_r_delete{
+    color: #AA0000;
+}
+
+.edit_restaurant_form .ed_r_delete:hover {
+    color: #ff0000;
+}
+
+.edit_restaurant_form .ed_r_addOwner{
+    color: #009900;
+    font-weight:bold;
+    font-size: 15px;
+}
+
+.edit_restaurant_form .ed_r_addOwner:hover {
+    color: #00cc00;
+}
+
+.edit_restaurant_form .ed_r_edit{
+    font-weight:bold;
+    padding: 2px 10px;
+    position:relative;
+    top: -1px;
+}
+
+span#add_r_nau
+{
+    color: red;
+    font-size:100%;
+    font-weight:600;
+}
+
+span#add_r_success {
+    color: green;
+    font-size:100%;
+    font-weight:600;
+}
+
+.add_r_form input[type=submit] {
+
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(44, 171, 44, 0.9);
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 100%;
+    font-weight:600;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 0px rgba(45, 129, 46, 0.9), 0px 5px 25px rgba(0,0,0,.7);
+    margin: 0px auto 50px 5px;
+    position:relative;
+    top: -4px;
+    width: 120px;
+    padding:5px 5px;
+    text-align: center;
+    border:none;
+    transition: all .1s ease;
+    outline: none;
+}
+
+.add_r_form input[type=submit]:active {
+    box-shadow: 0px 3px 0px rgba(45, 129, 46, 0.9), 0px 3px 1px rgba(0, 0, 0, .9);
+}
+
+

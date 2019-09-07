@@ -1,0 +1,96 @@
+
+.login_register {
+    width:30%;
+    height:320px;
+    float:right;
+    border-radius: 10px;
+    text-align:center;
+    background-color: rgba(0,0,0, .4);
+    position:absolute;
+    top:225px;
+    left:35%;
+
+}
+
+.login_register .login_span {
+    position:absolute;
+    top: 180px;
+    display:inline-block;
+    left: 13%;
+    color:#660000;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size:100%;
+}
+
+.login_register #registration span {
+   position:relative;
+    text-align: center;
+    display:inline-block;
+    color: #FFFF00;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size:100%;
+}
+
+.login_register .header_group {
+    margin-bottom:10px;
+    padding: 5px 0px;
+    width:100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color:#444;
+}
+
+.login_register .header_group label {
+
+    color:white;
+    font-weight:700;
+    font-size: 25px;
+}
+
+.login_register input
+{
+    width: 80%;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    outline:none;
+    font-family: Verdana;
+}
+
+.login_register input[type=submit]
+{
+    width: 40%;
+    background-color: #4CAF50;
+    border-radius: 0px;
+    border:none;
+    color: #fff;
+
+}
+
+.login_register input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.login_register input[type=submit]:active{
+    opacity:0.6
+}
+
+.login_register p{
+    padding-top:10px;
+    color:#FFA500;
+}
+
+.login_register a {
+    color:#FFA500;
+    font-weight: bold;
+}
+
+.login_register a:active {
+    color: #D2691E;
+}
